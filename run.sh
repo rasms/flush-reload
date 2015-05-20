@@ -1,6 +1,6 @@
 #!/bin/sh
 
-GPG=$HOME/gnupg-1.4.12/bin/gpg
+GPG=$HOME/flush-reload-master/build_gpg/gnupg-1.4.12/bin/gpg
 ADDR=addr/osx.txt
 MESSAGE=message.txt
 OUT=out.txt
