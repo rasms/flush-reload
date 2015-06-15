@@ -1,0 +1,61 @@
+Prime number (Bitsize: 1024) (*): p
+============================================================= hex ==== 
+d80ae2d2c863c03ce2e57f487885121dffeb85d8dbd3af02f2d87d8edacbeaa15439a2f303cd838a1acd63603ac3582bd15498732ec664ac5d5bb567f3571cde123f5692e3e5086c67be876826c213143512c83c9594bfcff32755a2172ce7abc34932717d4e8649c449c239ba2179b73229edefc6c479df7f20b5ab128aacdd
+
+Prime number (Bitsize: 1024) (*): q
+============================================================= hex ==== 
+c1659451c24eccc8295d19e12a388e52c00c3425dd5b3d79b09372b354900c9e6c2939d23c22d4e10af5e4e7e15a042a5d7768f0586fe4daee6e94bf91a224d79635a83580b9b2dd363db6ab11cec5b8f99d6b5a879763d1f0308270ad2c48739dc839435d5c35d54ba94f725b045f0c3191bc0a2c16b554e66cb5ea5ce189f5
+
+Modulus (Bitsize: 2048): n=p*q
+============================================================= hex ==== 
+a335ee77b0caa3da4205b27f5249061432c0af4d022f6f76beb2318242861b59be3f182a65bd7578f15a58263f10925d95cf28a6f748c9c1639ade3db6a1193f1b0b8e74ff41acff47d77b3db46acea0e125363609dae72c58a63b48aeaf6f9e374d919bcdac1d108883012d9adf20d8109db0f8fa9dc142ac26abee77eabfe5585f94017dde21d5af48e3a2ebddff558b310f63cb603ffb0d4fa3847a799cc70b523b4bf36f9af6fb78d53ad7da8661c2c3abe86cbebbae9b755abc3cddbbdda797cad08ecc76257786a5a57e663d336300fe21f658ac6663ffbbe568f23ee46f974103d60decd9ce3a61c2676f852a2f80d105724320c4cbc1cea84f76b481
+
+Euler's phi(n) function (*): phi(n)=(p-1)*(q-1)
+============================================================= hex ==== 
+a335ee77b0caa3da4205b27f5249061432c0af4d022f6f76beb2318242861b59be3f182a65bd7578f15a58263f10925d95cf28a6f748c9c1639ade3db6a1193f1b0b8e74ff41acff47d77b3db46acea0e125363609dae72c58a63b48aeaf6f9e374d919bcdac1d108883012d9adf20d8109db0f8fa9dc142ac26abee77eabfe3beef1cdcf32b94d0a3064a7949205ee4cb3955651231537e69e3b3424b1da5874aef5e86b37f428bd5b58cf2bbbd2a0b93f7aa84e58872274fab1094b7e47a27ff22cc082a2dbadbd98a679245d564663450ca8ad92c88c480a7e3d2a4990ec50e85d54efb6330babe4750165249ac66cbc5270b7f67f19066346312e00a7db0
+
+Public exponent: e [1 < e < phi ;  e and phi are coprime]
+============================================================= hex ==== 
+01 00 01
+
+Private exponent (*): d=(e^-1) mod phi
+============================================================= hex ==== 
+1d458cf17689c17d619df7f791e07af0a071a27f234732ac8f63123214904cd379a58346075d45765d8320902b7b6364d97b80050210d1ee9758ad47503bf0753afa85a0422f9b4165b725e9593456becfe286a88677f64223dc1c81daa2a8582dff01807a10c65db2be1c35fbb2cd073363b4dbd2c6fc6462cfc4c24e4b9202dcb9b1e986cb68334b29d3ad9109f73afd9fd8caf9ca52f937309973e858f6d91efd736ca140cfc4989da91bd7c40388740f554be486e6425aad8999c2a97da732c120eacdf5c9afa8828434ddc579ee42afc2c3c8538e6bffcf1cb328c632b9f0f2dbe1008137ba266a4fd8d10559a04e279beb19fca07c8f7811d4cecdd2e1
+
+Chinese Remainder Theorem (CRT) exponent 1 (*): dP=d mod (p-1)
+============================================================= hex ==== 
+41e08fe9d651147d7c729ead6a92a9439c9624ea4b9df0efe53d3e8c210bad30248eaeb18ba74f44fd8743964454ecbdefc6ebf5b37dab9523a2a35e5f4560f8167859ddd0c03621584130e901688c88cce63d48bc13efa9696bc520f8102954a6e7db09e03be196fcd3c0f5f95bdbd190ea58339558b41102a2e6c29394d5c1
+
+Chinese Remainder Theorem (CRT) exponent 2 (*): dQ=d mod (q-1)
+============================================================= hex ==== 
+1702f530fd43cf0e0a0defe460d7b5e796be5cfe1c669cdbfbecaf7b3316a8c9b8e8f6de531579eb0518d911d63895c24cb8c69dc2881ddd06fdd5692df4f3194be03a91932d8560d8f162e8dc0794733c104513d28a6af031fa33ab208fe2570f71218f286eae6120cd968c6ed40853351ab81b25bfd5f7b22b41420fa72e79
+
+Chinese Remainder Theorem (CRT) coefficient (*): qInv=(q^-1) mod p
+============================================================= hex ==== 
+71b3af30b755b650ad95dff03320108ac5751857b69e117328e502a53deb710fd5a9a006775cbfeb97d5335a00bb11f3afb26e4b4ae9c2b819c132d194c3aee3af314be5636eb7b254aa4cda64b564c6a00d4b7cce74f1f77b0687a9e11a6e8a97096f7d291baee1bd39bafdc87327701ddfa26ee96039e06e691764254a861a
+
+Plaintext:
+======================================================================
+
+
+Message: m
+============================================================= hex ==== 
+
+
+Ciphertext: c = m^e mod n
+============================================================= hex ==== 
+
+
+Time to encrypt the message (m):
+============================================================= sec ==== 
+
+
+Time to decrypt the ciphertext (c) with the private key A:
+============================================================= sec ==== 
+
+
+Time to decrypt the ciphertext (c) with the private key B (CRT):
+============================================================= sec ==== 
+
+
+(*) Keep this information secret!

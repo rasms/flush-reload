@@ -1,0 +1,61 @@
+Prime number (Bitsize: 1024) (*): p
+============================================================= b64 ==== 
+DWAujB8Oy0yukL=I7Y54Xt=wuNOszEl0lBOVOxQo_gXL3cYymFDWueQpMDWEiDOAz5Kc7CkncIiNLkrP=DN7DuIFrQIu_K8R6U_XsWcmXCKDHB8F9MKly=p9rMY5opdgyD9Cd5zJeP9n4d2EReXURSoAUtlniHvttyWjQiIYgpT
+
+Prime number (Bitsize: 1024) (*): q
+============================================================= b64 ==== 
+C5bb572Jip8ALqPuIeuZbB033GbtLizUR2JShDKa0oUR2avqZmYrE4AzUJduLe4AbrtQF1OR_JQxcwKlv6Y9DUMDQWrWBcotJOzjgiHpiMu_PrhMeUNOz7mC89mhIn8Svt8EKDTN3NLIwbFSbi4NmmnaRmAB1QrLEPijUfSuOdr
+
+Modulus (Bitsize: 2048): n=p*q
+============================================================= b64 ==== 
+2ZDUvtiCgZsa85idzIIGOKCi2lJG8lRtQ_iZ62GeORMRu=62fblNLuyLfO9ZyGabsLpoYczqZ9mMEQtZsseHa=6mkETFz1hFz7rtizj6hEeE4bDZO9skSiMAOxIAwlRvutJP6RpQmT48Y30IsQto3O49sm_FgTmKAi9glkT_g=vLXVb05ztY7LhqZZeklT=rMBCGzZos0=_mrFeuHwUPp72r8xI=DlclRxUDKwrzg6OSB3g_XilhkkctLQl3pTkzsdbyhGZins9NU6fQL_PZqpOm3_8VPOh6PZ=xlbQF8_v6_NGGFM3UpPpZfXmcTlXIelWD45SaCWnCl1pgXFThI1
+
+Euler's phi(n) function (*): phi(n)=(p-1)*(q-1)
+============================================================= b64 ==== 
+2ZDUvtiCgZsa85idzIIGOKCi2lJG8lRtQ_iZ62GeORMRu=62fblNLuyLfO9ZyGabsLpoYczqZ9mMEQtZsseHa=6mkETFz1hFz7rtizj6hEeE4bDZO9skSiMAOxIAwlRvutJP6RpQmT48Y30IsQto3O49sm_FgTmKAi9glkT_g=uxxl7DppAvJGemPAUKaWNkJBELLb4Z5JVcdZiq9B7QM7IkzUXhD=GelLjOpokxqg2vFtgeJbY78dJwiGbBVaUYV=8im8AYswszcAPv95rMHcD53AYjaiYCI0f_FIf9aEnGw5rKxxOp2wlaTG5b99h6RBnISBVsVna6OqOnBW2dsm
+
+Public exponent: e [1 < e < phi ;  e and phi are coprime]
+============================================================= b64 ==== 
+G01
+
+Private exponent (*): d=(e^-1) mod phi
+============================================================= b64 ==== 
+THOpnTed1VM6Tz=UHu7hme76YVoD7CgoFOn8o591CqtcbWqO7NKLsNOCWa2jxOsJPUu050X3HxfTOhKTGE=1rElg5e48lcq5bjoNfMJHMli=YXgY6T=P28zmSWTgYg5Wj=m60UX36NRA_73Nxiiq7CsEqszB6=6HYpyJ2JakI0joviUc6osWpIodJhP49zphzdzZA_SfI_JSmcNFeMFRP7lrpRA50pyIOdQaRryG3Y7GFLKlaXkP2Mgs9cSAfVQSomI3gpVN9hwY2X3JTnNdkGg=2myXJZcl=pnopACOokV3os_40WJUw9cfFsD45MQ1E9vlh6VoWV8zu4TJEpTBX
+
+Chinese Remainder Theorem (CRT) exponent 1 (*): dP=d mod (p-1)
+============================================================= b64 ==== 
+47WZ_dMKHHzV7AUhMgIgKESbYJgIvtmx_KzFemX2wqm98wkiOkdJqJzXqEMH5JilU=6w=MpVQkL8wAZNbz5OFWMU5dTqC0s8LX1CEa1Q8o8pEOzIBmJxwbfQyKW_10fLARdsmdWE_6M=DF0zVbRsz6GwbWpbLYq4GAYviAJbDN1
+
+Chinese Remainder Theorem (CRT) exponent 2 (*): dQ=d mod (q-1)
+============================================================= b64 ==== 
+1S2zJ3zGyyE2Wtlv63NjUUMlbp_76QSs=lihtip5gZ9kEZstbCLUUi56DaHrZYLmaounft2Y1tT1ltLQItqynbBu3gHaos5ODZnOkZS1vHpF1154zAAQl0n_ZEh88=YLmzn8OyeRgvX8CsMZ6xK25Cr6hWR9R=Lzx8hGK8Ffovv
+
+Chinese Remainder Theorem (CRT) coefficient (*): qInv=(q^-1) mod p
+============================================================= b64 ==== 
+76php2tLRPGhPNVy3CW48h5THXNjfuHSoZb0gKzwt4FrQcW1dTSl_kNrJDQ0BiHyw_oRajAwSAu6S4oqPJ3hkElCKlbOswtibIgJDfajMJ6e0rBVCvqyVTx1eUfuHfkYfS9Rtqf6wxXlJcw=SXp9t0Ttw9kwM0vu6vf5sGbIeOQ
+
+Plaintext:
+======================================================================
+
+
+Message: m
+============================================================= hex ==== 
+
+
+Ciphertext: c = m^e mod n
+============================================================= hex ==== 
+
+
+Time to encrypt the message (m):
+============================================================= sec ==== 
+
+
+Time to decrypt the ciphertext (c) with the private key A:
+============================================================= sec ==== 
+
+
+Time to decrypt the ciphertext (c) with the private key B (CRT):
+============================================================= sec ==== 
+
+
+(*) Keep this information secret!
