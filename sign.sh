@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GPG=$HOME/Develop/flush-reload/build_gpg/gnupg-1.4.12/bin/gpg
+GPG=$HOME/flush-reload-master/build_gpg/gnupg-1.4.12/bin/gpg
 MESSAGE=message.txt
 OUT=out.txt
 

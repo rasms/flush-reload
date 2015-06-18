@@ -1,7 +1,7 @@
 #!/bin/bash
 
-GPG=$HOME/Develop/flush-reload/build_gpg/gnupg-1.4.12/bin/gpg
-ADDR=addr/na_ubu14.txt
+GPG=$HOME/flush-reload-master/build_gpg/gnupg-1.4.12/bin/gpg
+ADDR=addr/vmw_ubu14.txt
 MESSAGE=message.txt
 OUT=out.txt
 CYCLES=$1

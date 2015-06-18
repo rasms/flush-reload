@@ -10,7 +10,7 @@ inputfile = sys.argv[1] if len(sys.argv) == 2 else 'out.txt'
 
 Hit = namedtuple('Hit', ['slot', 'addr', 'time'])
 
-CUTOFF = 80
+CUTOFF = 150
 square = {'label': 'Square', 'marker': 'x', 'color': '#FF0059', 'addrs': [0]}
 red = {'label': 'Reduce', 'marker': '.', 'color': '#2C00E8', 'addrs': [1]}
 mult = {'label': 'Multiply', 'marker': '^', 'color': '#00F1FF', 'addrs': [2]}

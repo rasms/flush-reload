@@ -5,7 +5,7 @@ import csv
 import sys
 
 Hit = namedtuple('Hit', ['slot', 'addr', 'time'])
-CUTOFF = 80
+CUTOFF = 150
 SQUARE_ADDR = 0
 MODULO_ADDR = 1
 MULTIPLY_ADDR = 2
