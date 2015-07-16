@@ -19,8 +19,4 @@ trap "echo 'Received signal'; kill -TERM ${PROBE_PID}" \
 wait ${PROBE_PID}
 #wait ${GPG_PID}
 
-python graph.py &
-GRAPH_PID=$!
-
-trap "echo 'Killing python'; kill -TERM ${GRAPH_PID}" SIGINT SIGQUIT
-wait ${GRAPH_PID}
+python analyze.py out.txt
