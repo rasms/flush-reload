@@ -9,14 +9,15 @@ CYCLES=$1
 bin/probe ${GPG} ${ADDR} ${OUT} ${CYCLES} &
 PROBE_PID=$!
 
-#sleep 0.01
-#(echo "GPG start"; ${GPG} --yes --sign ${MESSAGE}; echo "GPG end") &
-#GPG_PID=$!
 
 trap "echo 'Received signal'; kill -TERM ${PROBE_PID}" \
     SIGINT SIGQUIT
 
 wait ${PROBE_PID}
-#wait ${GPG_PID}
 
-python analyze.py out.txt
+python analyze.py out.txt &
+ANALYZE_PID=$!
+
+trap "echo 'Killing python'; kill -TERM ${ANALYZE_PID}" SIGINT SIGQUIT
+wait ${ANALYZE_PID}
+
